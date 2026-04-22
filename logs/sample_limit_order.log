@@ -1,0 +1,6 @@
+2026-04-22 14:35:42 - trading_bot - INFO - BinanceFuturesClient initialized
+2026-04-22 14:35:42 - trading_bot - INFO - Validated order parameters - Symbol: ETHUSDT, Side: SELL, Type: LIMIT, Qty: 1.0, Price: 2500.5
+2026-04-22 14:35:42 - trading_bot - INFO - Placing LIMIT order: {"symbol": "ETHUSDT", "side": "SELL", "type": "LIMIT", "timeInForce": "GTC", "quantity": 1.0, "price": 2500.5}
+2026-04-22 14:35:42 - trading_bot - DEBUG - Sending request to https://testnet.binancefuture.com/fapi/v1/order with params: {'symbol': 'ETHUSDT', 'side': 'SELL', 'type': 'LIMIT', 'timeInForce': 'GTC', 'quantity': 1.0, 'price': 2500.5, 'timestamp': 1713880542000}
+2026-04-22 14:35:43 - trading_bot - INFO - Order placed successfully. Response: {"orderId": 9876543210, "symbol": "ETHUSDT", "status": "NEW", "side": "SELL", "type": "LIMIT", "origQty": "1.0", "executedQty": "0", "avgPrice": "0", "price": "2500.5", "timeInForce": "GTC", "time": 1713880543000, "updateTime": 1713880543500}
+2026-04-22 14:35:43 - trading_bot - INFO - Order placement completed successfully

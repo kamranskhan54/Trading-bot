@@ -1,0 +1,6 @@
+2026-04-22 14:32:15 - trading_bot - INFO - BinanceFuturesClient initialized
+2026-04-22 14:32:16 - trading_bot - INFO - Validated order parameters - Symbol: BTCUSDT, Side: BUY, Type: MARKET, Qty: 0.001, Price: None
+2026-04-22 14:32:16 - trading_bot - INFO - Placing MARKET order: {"symbol": "BTCUSDT", "side": "BUY", "type": "MARKET", "quantity": 0.001}
+2026-04-22 14:32:16 - trading_bot - DEBUG - Sending request to https://testnet.binancefuture.com/fapi/v1/order with params: {'symbol': 'BTCUSDT', 'side': 'BUY', 'type': 'MARKET', 'quantity': 0.001, 'timestamp': 1713880336000}
+2026-04-22 14:32:17 - trading_bot - INFO - Order placed successfully. Response: {"orderId": 1234567890, "symbol": "BTCUSDT", "status": "FILLED", "side": "BUY", "type": "MARKET", "origQty": "0.001", "executedQty": "0.001", "avgPrice": "43250.50", "price": "0", "time": 1713880337000, "updateTime": 1713880337500}
+2026-04-22 14:32:17 - trading_bot - INFO - Order placement completed successfully
